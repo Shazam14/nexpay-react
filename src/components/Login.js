@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom';
 
 import React, { useState } from 'react';
 import Axios from 'axios'; // Import Axios for making HTTP requests
-import './css/LoginForm.css'; // Import the CSS file for LoginForm
+import './Login.css'
 
 const LoginForm = () => {
   const [email, setEmail] = useState(''); // State for email input
