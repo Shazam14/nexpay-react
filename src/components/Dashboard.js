@@ -10,7 +10,7 @@ const Dashboard = () => {
 
   const handleRegister = async () => {
     try {
-      const response = await Axios.post('http://api.example.com/register', {
+      const response = await Axios.post('api/register/', {
         email: email,
         password: password
       });
