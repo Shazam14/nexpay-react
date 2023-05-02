@@ -3,6 +3,9 @@ import Navbar from '../components/Navbar';
 import { connect } from 'react-redux';
 import { checkAuthenticated, load_user } from '../actions/auth';
 
+  
+
+
 const Layout = ({ checkAuthenticated, load_user, children }) => {
     useEffect(() => {
         checkAuthenticated();

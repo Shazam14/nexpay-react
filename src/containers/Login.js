@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link, Redirect, Navigate } from 'react-router-dom';
+import { Link, Navigate } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { login } from '../actions/auth';
 import axios from 'axios';

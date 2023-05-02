@@ -7,14 +7,11 @@ import {BrowserRouter as Router} from "react-router-dom"
 
 //new thiing
 import { createRoot } from 'react-dom/client';
-
-
 ReactDOM.render(
-  <Router>
   <React.StrictMode>
     <App />
-  </React.StrictMode>
-  </Router>,
+  </React.StrictMode>,
   document.getElementById('root')
 );
+
 
